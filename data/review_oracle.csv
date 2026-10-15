@@ -1,0 +1,35 @@
+seed_id,provider,rating,review_date,scenario
+1,Provider A,5,2026-10-12,Newest 5-star overall
+2,Provider A,4,2026-10-11,4-star newer than most 5-star reviews: must not show collapsed
+3,Provider A,5,2026-09-28,Recent 5-star
+4,Provider A,5,2026-08-15,Recent 5-star (third card for Provider A)
+5,Provider A,5,2026-02-10,Fourth 5-star: hidden by the limit of 3
+6,Provider A,3,2025-12-31,3-star on the last day of 2025
+7,Provider B,5,2026-10-05,Recent 5-star
+8,Provider B,5,2026-06-01,Recent 5-star
+9,Provider B,5,2025-12-31,Old 5-star that fills the third slot
+10,Provider B,5,2025-03-20,Old 5-star hidden by the limit
+11,Provider B,4,2026-10-12,Newer 4-star: must not show collapsed
+12,Provider C,5,2025-11-02,Old 5-star (Provider with only old reviews)
+13,Provider C,5,2025-01-15,Old 5-star
+14,Provider C,5,2024-07-09,Old 5-star from 2024
+15,Provider C,2,2026-09-01,2-star from 2026: must not replace old 5-star reviews
+16,Provider D,5,2026-07-04,Recent 5-star (only two 5-star in total)
+17,Provider D,5,2025-05-05,Old 5-star
+18,Provider D,1,2026-10-01,1-star: must not fill the third slot
+19,Provider E,4,2026-10-02,Provider without any 5-star review
+20,Provider E,3,2026-09-15,Provider without any 5-star review
+21,Provider F,5,2026-01-01,Tie: same date as seeds 22 and 23
+22,Provider F,5,2026-01-01,Tie
+23,Provider F,5,2026-01-01,Tie (hidden by the limit if lower seed IDs come first)
+24,Provider F,5,2026-01-02,Day after the tie group
+25,Provider G,5,2025-08-20,Single old 5-star
+26,Provider H,5,2025-10-10,Old 5-star
+27,Provider H,5,2024-12-12,Old 5-star
+28,Provider I,5,2026-09-09,Single recent 5-star
+29,Provider J,5,2026-04-04,Recent 5-star
+30,Provider J,5,2025-09-01,Old 5-star that fills slot 2
+31,Provider J,5,2025-06-06,Old 5-star that fills slot 3
+32,Provider J,5,2024-11-11,Old 5-star hidden by the limit
+33,Provider K,5,2026-08-08,Recent 5-star
+34,Provider K,5,2026-03-03,Recent 5-star
